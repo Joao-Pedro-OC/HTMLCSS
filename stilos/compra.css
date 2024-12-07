@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input, select:valid {
+    margin: 10px 0px 10px 0px;
+    color: black;
+    width: 300px;
+    height: 37.5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+select:invalid{
+    margin: 10px 0px 10px 0px;
+    color: gray;
+    width: 300px;
+    height: 37.5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+div#form {
+    margin-right: 30px;
+}
+
+div#datacvv {
+    display: flex;
+}
+
+div#cvv {
+    margin-right: 0px;
+}
+
+div#datacvv > div#mes, div#datacvv > div#ano {
+    margin-right: auto;
+}
+
+div#datacvv select {
+    width: 85px;
+    height: 41px;
+}
+
+div#datacvv input {
+    width: 75px;
+}
+
+div#cartão {
+    display: flex;
+}
+
+div#parcelas select {
+    width: 100%;
+}
+
+div#button {
+    display: flex;
+    align-content: center;
+    margin: 10px;
+}
+
+button#c_cartao {
+    height: 60px;
+    width: 150px;
+    font-size: 150%;
+    border-radius: 10px;
+    background-color: limegreen;
+    font-weight: bolder;
+    margin: auto;
+}
+
+button#c_cartao:hover {
+    background-color: red;
+}
+
+#maindocartão {
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+article#pix div{
+    background-color: rgb(236, 236, 236);
+    width: 350px;
+    height: 50px;
+    font-size: 13px;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 20px;
+}
+
+article#pix > div p {
+    margin: 10px;
+}
+
+article#pix>button{
+    width: 370px;
+    height: 40px;
+    font-size: 15px;
+    border: solid 1px rgb(0, 170, 0);
+    margin: 0px 0px 20px 20px;
+    border-radius: 5px;
+}
+
+button#gerar{
+    background-color: rgb(0, 170, 0);
+    color: white;
+}
+
+button#copiar{
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 170, 0);
+}
+
+#boleto{
+    justify-content: center;
+}
+
+h2{
+    font-size: medium;
+}
+
+p{
+    font-size: small;
+}
+
+div#descricao{
+    display: flex;
+}
+
+.img-pequena{
+    width: 20px;
+    height: 20px;
+}
+
+#tudo>div>div{
+    border: 1px solid rgba(128, 128, 128, 0.327);
+    padding: 12px 16px;
+}
+
+#tudo{
+    border: 1px solid rgba(128, 128, 128, 0.522); 
+    padding: 12px 16px;
+}
+
+#pix-boleto{
+    color: blue;
+}
+
+@media screen and (max-width: 699px) {
+
+    main#maindocartão{
+        margin: auto;
+        padding: 0px;
+    }
+
+    figure{
+        display: none;
+    }
+
+    #pix{
+        margin: auto;
+    }
+
+    main#maindocartão div#form{
+        margin: 0px;
+    }
+
+    main#maindocartão input {
+        width: 100%;
+    }
+
+}

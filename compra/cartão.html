@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stilos/compra.css">
+</head>
+
+<body>
+    <main id="maindocartão">
+        <form action="#check" method="post" id="formcartao">
+            <div id="cartão">
+                <div id="form">
+                    <label for="">Número do cartão</label>
+                    <br>
+                    <input type="number" name="número_do_cartão" id="número_do_cartão" inputmode="numeric"
+                        maxlength="19" placeholder="Digite somente números" required>
+                    <br>
+                    <label for="nome_do_titular">Nome do titular</label>
+                    <br>
+                    <input type="text" name="nome_do_titular" id="nome_do_titular"
+                        placeholder="Digite o nome impresso no cartão" required>
+                    <br>
+                    <div id="datacvv">
+                        <div id="mes">
+                            <label for="mês">Mês</label>
+                            <br>
+                            <select name="mês" id="mês" required>
+                                <option value="" disabled selected>MM</option>
+                                <option value="01">1</option>
+                                <option value="02">2</option>
+                                <option value="03">3</option>
+                                <option value="04">4</option>
+                                <option value="05">5</option>
+                                <option value="06">6</option>
+                                <option value="07">7</option>
+                                <option value="08">8</option>
+                                <option value="09">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                        </div>
+                        <div id="ano">
+                            <label for="ano">Ano</label>
+                            <br>
+                            <select name="ano" id="ano" required>
+                                <option value="" disabled selected>AA</option>
+                                <option value="2024">24</option>
+                                <option value="2025">25</option>
+                                <option value="2026">26</option>
+                                <option value="2027">27</option>
+                                <option value="2028">28</option>
+                                <option value="2029">29</option>
+                                <option value="2030">30</option>
+                                <option value="2031">31</option>
+                                <option value="2032">32</option>
+                                <option value="2033">33</option>
+                                <option value="2034">34</option>
+                                <option value="2035">35</option>
+                                <option value="2036">36</option>
+                                <option value="2037">37</option>
+                                <option value="2038">38</option>
+                                <option value="2039">39</option>
+                                <option value="2040">40</option>
+                                <option value="2041">41</option>
+                                <option value="2042">42</option>
+                                <option value="2043">43</option>
+                                <option value="2044">44</option>
+                                <option value="2045">45</option>
+                                <option value="2046">46</option>
+                                <option value="2047">47</option>
+                                <option value="2048">48</option>
+                                <option value="2049">49</option>
+                                <option value="2050">50</option>
+                                <option value="2051">51</option>
+                                <option value="2052">52</option>
+                                <option value="2053">53</option>
+                                <option value="2054">54</option>
+                                <option value="2055">55</option>
+                                <option value="2056">56</option>
+                                <option value="2057">57</option>
+                                <option value="2058">58</option>
+                                <option value="2059">59</option>
+                                <option value="2060">60</option>
+                            </select>
+                        </div>
+                        <div id="cvv">
+                            <label for="cvv">CVV</label>
+                            <br>
+                            <input type="text" name="cvv" id="cvv" inputmode="numeric" placeholder="CVV" maxlength="3"
+                                minlength="3" required>
+                        </div>
+                    </div>
+                </div>
+                <figure>
+                    <img src="../imagens/cartão.png" alt="">
+                </figure>
+            </div>
+            <div id="parcelas">
+                <label for="número_de_parcelas">Selecione o número de parcelas</label>
+                <br>
+                <select name="número_de_parcelas" id="número_de_parcelas" required required>
+                    <option value="1 x de R$ XXX,XX / ano">1 x de R$&nbsp;XXX,XX / ano</option>
+                    <option value="2 x de R$ XXX,XX / ano">2 x de R$&nbsp;XXX,XX / ano</option>
+                    <option value="3 x de R$ XXX,XX / ano">3 x de R$&nbsp;XXX,XX / ano</option>
+                    <option value="4 x de R$ XXX,XX / ano">4 x de R$&nbsp;XXX,XX / ano</option>
+                    <option value="5 x de R$ XXX,XX / ano">5 x de R$&nbsp;XXX,XX / ano</option>
+                    <option value="6 x de R$ XXX,XX / ano">6 x de R$&nbsp;XXX,XX / ano</option>
+                    <option value="7 x de R$ XXX,XX / ano">7 x de R$&nbsp;XXX,XX / ano</option>
+                    <option value="8 x de R$ XXX,XX / ano">8 x de R$&nbsp;XXX,XX / ano</option>
+                    <option value="9 x de R$ XXX,XX / ano">9 x de R$&nbsp;XXX,XX / ano</option>
+                    <option value="10 x de R$ XXX,XX / ano">10 x de R$&nbsp;XXX,XX / ano</option>
+                    <option value="11 x de R$ XXX,XX / ano">11 x de R$&nbsp;XXX,XX / ano</option>
+                    <option value="12 x de R$ XXX,XX / ano">12 x de R$&nbsp;XXX,XX / ano</option>
+                </select>
+            </div>
+            <div id="button"><button type="submit" id="c_cartao">COMPRA</button></div>
+        </form>
+    </main>
+</body>
+
+</html>
