@@ -133,7 +133,6 @@ article#p>figure>img:hover {
 
 article#c {
     background-color: rgb(255, 255, 255);
-    box-shadow: inset 0px 10px 10px -10px rgba(0, 0, 0, 0.3);
 }
 
 article#c>p {
