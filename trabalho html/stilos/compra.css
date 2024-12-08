@@ -91,11 +91,12 @@ main {
 
 article#pix div{
     background-color: rgb(236, 236, 236);
+    width: 350px;
     height: 50px;
     font-size: 13px;
     border-radius: 2px;
     padding: 10px;
-    margin: 20px;
+    margin: 0px 0px 20px 0px;
 }
 
 article#pix > div p {
@@ -103,11 +104,11 @@ article#pix > div p {
 }
 
 article#pix>button{
-    width: 318px;
+    width: 370px;
     height: 40px;
     font-size: 15px;
     border: solid 1px rgb(0, 170, 0);
-    margin: 0px 0px 20px 20px;
+    margin: 0px 0px 20px 0px;
     border-radius: 5px;
 }
 
