@@ -82,8 +82,9 @@ article {
 }
 
 article#p {
-    padding-bottom: 5vw;
     height: 90vh;
+    width: 90vw;
+    margin: auto;
 }
 
 article#p>h1 {
@@ -95,14 +96,16 @@ article#p>h1 {
     margin: auto;
     margin: 0px 10%;
     transition: 0.5s;
-
 }
 
-article#p>p {
+article#p>div {
+    justify-items: center;
     background-color: rgba(250, 235, 215);
     text-align: center;
-    width: 60vw;
-    font-size: 2.9vh;
+    height: 20vh;
+    width: 83vw;
+    max-width: 800px;
+    font-size: x-large;
     font-family: "Pangolin", cursive;
     padding: 15px;
     border-radius: 10px;
@@ -116,7 +119,6 @@ article#p>p {
 
 article#p>figure>img {
     width: 50vh;
-    margin-top: 10px;
     max-width: 1000px;
     min-width: 300px;
     transition: 0.5s;
@@ -331,11 +333,20 @@ div#criadores>h1 {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-height :700px){
+
+
+}
+
+@media screen and (max-width: 500px){
 
     header {
         display: block;
         justify-content: space-around;
+    }
+
+    header> div{
+        width: auto;
     }
     
     header>div h1 {
@@ -352,26 +363,25 @@ div#criadores>h1 {
     }
 
     article#p>h1{
-        font-size: 30px;
-
+        font-size: 40px;
     }
 
     article#p>figure{
-        margin-top: 2vh;
-        margin-bottom: 2vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
 
     article#p>figure> img {
-        width: 63vw;
+        width: 30vh;
         min-width: 0px;
         max-width: 300px;
-        margin: 10px 0px 10px 0px;
     }
 
-    article#p>p {
-        font-size: 15px;
-        width: 90vw;
-        padding: 5px;
+    article#p>div{
+        width: 75vw;
+        margin: 0px;
+        font-size: 90%;
+        margin: auto;
     }
 
     article#c>aside {
@@ -435,13 +445,10 @@ div#criadores>h1 {
         font-size: 30px;
     }
 
-    article#v>aside>div{
-        width: 700px;
-    }
-
     article#v>aside>div>p{
         font-size: 20px;
         text-align: center;
+        width: auto;
     }
 
     article#v>aside div>a>button{
@@ -451,7 +458,8 @@ div#criadores>h1 {
     }
 
     iframe {
-        width: 90%;
+        width: 100vw;
+        height: 600px;
     }
 
     article#v {
