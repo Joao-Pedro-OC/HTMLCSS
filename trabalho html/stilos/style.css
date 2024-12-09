@@ -29,7 +29,6 @@ header {
 
 header div {
     display: flex;
-    align-items: center;
     width: 357px;
     margin-left: 10px;
 }
@@ -325,15 +324,61 @@ div#criadores>h1 {
 
 }
 
+@media screen and (max-width: 800px) and (max-height: 500px) {
+
+    header>div>figure>img {
+        height: 8vh;
+    }
+
+    article#p>figure{
+        margin: 6vh;
+    }
+
+    article#p>div{
+        margin-top: 10vh;
+    }
+
+    article#p>figure>img{
+        height: 280px;
+        width: 280px;
+    }
+
+    article#p{
+        height: 165vh;
+    }
+}
+
+@media screen and (max-width: 1264px) and (min-width: 800px) and (max-height: 500px) {
+
+    header>div>figure>img {
+        height: 8vh;
+    }
+
+    article#p>figure{
+        margin: 6vh;
+    }
+
+    article#p>div{
+        margin-top: 10vh;
+    }
+
+    article#p>figure>img{
+        height: 280px;
+        width: 280px;
+    }
+
+    article#p{
+        height: 150vh;
+    }
+
+}
+
+
+
 @media screen and (max-width :740px) {
     article#f>aside>div {
         display: block;
     }
-}
-
-@media screen and (max-height :700px){
-
-
 }
 
 @media screen and (max-width: 500px){
