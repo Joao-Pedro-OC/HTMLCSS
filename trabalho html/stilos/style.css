@@ -29,7 +29,7 @@ header {
 
 header div {
     display: flex;
-    width: 357px;
+    width: 600px;
     margin-left: 10px;
 }
 
@@ -373,7 +373,25 @@ div#criadores>h1 {
 
 }
 
-@media screen and (max-width: 1264px) and (max-height: 500px){}
+@media screen and (max-width: 1100px) and (max-height: 1400px) and (min-height: 1000px){
+    header>div{
+        width: auto;
+        align-items: center;
+    }
+    header>div h1 {
+        font-size: xx-large;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    header>nav>a{
+        font-size: x-large;
+    }
+
+    article#p h1 {
+        font-size: 6vh;
+    }
+}
 
 @media screen and (max-width :740px) {
     article#f>aside>div {
@@ -381,7 +399,7 @@ div#criadores>h1 {
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
 
     header {
         display: block;
@@ -501,6 +519,7 @@ div#criadores>h1 {
     }
 
     iframe {
+        margin: 0px;
         width: 100vw;
         height: 600px;
     }
