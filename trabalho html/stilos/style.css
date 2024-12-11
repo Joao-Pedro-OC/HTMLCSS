@@ -373,7 +373,7 @@ div#criadores>h1 {
 
 }
 
-
+@media screen and (max-width: 1264px) and (max-height: 500px)
 
 @media screen and (max-width :740px) {
     article#f>aside>div {
