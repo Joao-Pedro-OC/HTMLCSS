@@ -110,3 +110,31 @@ header>nav>a:hover {
     font-weight: bolder;
     text-shadow: none;
 }
+
+@media screen and (max-width: 550px){
+    main#informaçoes{
+        display: block;
+    }
+
+    header {
+        display: block;
+        justify-content: space-around;
+    }
+
+    header> div{
+        width: auto;
+    }
+    
+    header>div h1 {
+        margin: 0px;
+    }
+
+    header>nav>a {
+        padding: 1px;
+        font-size: larger;
+    }
+
+    header figure {
+        display: none;
+    }
+}

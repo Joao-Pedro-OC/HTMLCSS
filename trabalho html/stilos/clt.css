@@ -161,3 +161,41 @@ header>nav>a:hover {
     font-weight: bolder;
     text-shadow: none;
 }
+
+@media screen and (max-width: 1264px) {
+    div.login-container{
+        margin: auto;
+    }
+    div.imagem-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px){
+
+    header {
+        display: block;
+        justify-content: space-around;
+    }
+
+    header> div{
+        width: auto;
+    }
+    
+    header>div h1 {
+        margin: 0px;
+    }
+
+    header>nav>a {
+        padding: 1px;
+        font-size: larger;
+    }
+
+    header figure {
+        display: none;
+    }
+
+    div.login-container{
+        width: 100vw;
+    }
+}
