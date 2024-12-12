@@ -33,6 +33,7 @@ main{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     width: 320px; 
     text-align: center;
+    justify-content: center;
 }  
 
 main h1 { 
@@ -42,7 +43,7 @@ main h1 {
 
 input[type="text"], 
 input[type="password"] { 
-    width: 100%; 
+    width: 200px;
     padding: 10px; 
     margin: 10px 0; 
     border: 1px solid #ccc; 
@@ -51,7 +52,7 @@ input[type="password"] {
 
 input[type="date"],
 input[type="email"]{
-    width: 100%; 
+    width: 200px;
     padding: 10px; 
     margin: 10px 0; 
     border: 1px solid #ccc; 
@@ -212,5 +213,10 @@ header>nav>a:hover {
 
     header figure {
         display: none;
+    }
+
+    button {
+        width: 100px;
+        margin: 1px;
     }
 }
