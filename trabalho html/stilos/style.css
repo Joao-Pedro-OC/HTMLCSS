@@ -29,7 +29,7 @@ header {
 
 header div {
     display: flex;
-    width: 600px;
+    width: 40vw;
     margin-left: 10px;
 }
 
@@ -103,7 +103,7 @@ article#p>div {
     text-align: center;
     width: 83vw;
     max-width: 800px;
-    font-size: x-large;
+    font-size: 22px;
     font-family: "Pangolin", cursive;
     padding: 10px;
     border-radius: 10px;
@@ -440,7 +440,7 @@ div#criadores>h1 {
     article#p>div{
         width: 75vw;
         margin: 0px;
-        font-size: 90%;
+        font-size: 85%;
         margin: auto;
     }
 
